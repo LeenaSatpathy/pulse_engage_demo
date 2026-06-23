@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "affective-signals"
+version = "0.1.0"
+description = "Affective-computing prototype: engagement detection from EDA/HR biosignals."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "click>=8.0", "matplotlib>=3.6"]
+
+[project.scripts]
+affective-signals = "affective_signals.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
