@@ -1,16 +1,13 @@
 # affective-signals
 
-An **affective-computing prototype** that detects user *engagement* from
+A prototype that detects user engagement from
 wearable-style biosignals — electrodermal activity (EDA) and heart rate (HR) —
 using classic signal processing plus a from-scratch logistic-regression
-classifier.
+classifier (sample data example).
 
 Everything runs on a built-in synthetic signal generator, so there's no
 hardware dependency and no biometric data involved. The pipeline mirrors how a
 real affective-sensing prototype would be structured.
-
-> Built as an applied-R&D prototype connecting affective computing and applied
-> neuroscience for human-AI experiences.
 
 ## Pipeline
 
